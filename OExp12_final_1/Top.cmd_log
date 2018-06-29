@@ -1,0 +1,176 @@
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/w12/OExp12_2/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/w12/OExp12_2/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "G:/OExp12_2/Top.xst" -ofn "G:/OExp12_2/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/workstation/OExp12_2/Top.xst" -ofn "D:/workstation/OExp12_2/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/workstation/OExp12_2/Top.xst" -ofn "D:/workstation/OExp12_2/Top.syr" 
+xst -intstyle ise -ifn "D:/workstation/OExp12_2/Top.xst" -ofn "D:/workstation/OExp12_2/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/workstation/OExp12_final/Top.xst" -ofn "D:/workstation/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/workstation/OExp12_final/Top.xst" -ofn "D:/workstation/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/workstation/OExp12_final/Top.xst" -ofn "D:/workstation/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/workstation/OExp12_final/Top.xst" -ofn "D:/workstation/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.xst" -ofn "C:/all/study/coding/2sprsmr/cod/project/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/xx/OExp12_final/Top.xst" -ofn "D:/xx/OExp12_final/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.xst" -ofn "E:/xxxxxxxxxxxx/OExp12_final_1/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OExp10.ucf -p xc7k160t-ffg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf OExp10.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
